@@ -1,0 +1,8 @@
+# If using OpenAI or any LLM provider, set your key here
+OPENAI_API_KEY=""
+
+# Database (SQLite file path for MVP)
+DB_PATH="data/app.db"
+
+# Optional: where to write the decision log csv
+DECISION_LOG_CSV="outputs/decision_log.csv"
