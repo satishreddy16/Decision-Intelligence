@@ -13,7 +13,7 @@ answer the critical follow-up questions required for decision-making:
 This gap results in delayed responses, inconsistent interpretations,
 and inefficient use of analytics resources.
 
----
+
 
 ## Solution Overview
 This project implements a **Decision Intelligence Agent** that automates
