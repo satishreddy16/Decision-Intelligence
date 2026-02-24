@@ -1,0 +1,23 @@
+decision-intelligence-agent/
+├── README.md
+├── data/
+│   └── README.md
+├── sql/
+│   ├── schema.sql
+│   ├── kpi_daily.sql
+│   ├── kpi_segment.sql
+│   └── decision_log_schema.sql
+├── src/
+│   ├── config.py
+│   ├── run_pipeline.py
+│   ├── metrics.py
+│   ├── anomaly.py
+│   ├── drivers.py
+│   ├── llm_explainer.py
+│   └── decision_log.py
+├── dashboards/
+│   └── screenshots/
+├── docs/
+│   └── architecture.md
+├── requirements.txt
+└── .env.example
