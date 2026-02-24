@@ -1,0 +1,24 @@
+# Data
+
+This project expects an e-commerce style dataset (historical, batch).
+
+## Required fields (minimum)
+- `order_id`
+- `customer_id`
+- `order_date` (YYYY-MM-DD or timestamp)
+- `revenue` (numeric)
+- `region` (string)
+- `channel` (string)
+- `category` (string)
+- `is_refund` (0/1) or similar refund indicator
+
+## Option A: Local CSV (recommended for MVP)
+Place a file at:
+- `data/orders.csv`
+
+## Option B: Database
+Load your data into a SQL database (SQLite/Postgres) and update the connection settings in `src/config.py`.
+
+## Notes
+- Do NOT commit large raw datasets.
+- If using a public dataset, document the source and provide download instructions.
